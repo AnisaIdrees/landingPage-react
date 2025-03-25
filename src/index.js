@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import LandingPage from './App';
+import './App.css';
 
+import LandingPage, { HeroSection } from './App';
+import App from './App'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LandingPage />
+    {/* <App/> */}
     <>
-
-
+      <LandingPage />
+      <HeroSection />
     </>
   </React.StrictMode>
 );
