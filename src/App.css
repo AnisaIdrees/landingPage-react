@@ -49,7 +49,6 @@ nav {
   max-width: 1600px;
   height: 70px;
   background-color: #f8f8f0;
-  border-bottom: 2px solid color black;
   display: flex;
   justify-content: space-between;
   padding: 0 60px;
@@ -98,13 +97,12 @@ justify-content: space-around;
 }
 
 .link-section ul li:hover::after {
-  width: 100%; /* Full underline on hover */
+  width: 100%; 
 }
 
 .hero-section{
   max-width: 1600px;
   height: 100vh;
-  /* background-color: #dfdf08; */
   background-color: #f8f8f0;
 }
 .wrapper{
